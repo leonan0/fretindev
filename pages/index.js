@@ -8,6 +8,8 @@ const Code = (p) => <code className={styles.inlineCode} {...p} />
 
 
 const Index = () => (
+    <div className={styles.inlineCode}>
+        Site em construção
     <div className={styles.all}>
         <div className={styles.g}>
             <div className={styles.logo}>
@@ -16,7 +18,7 @@ const Index = () => (
                 <div className={styles.fret}>fret</div>
             </div>
         </div>
-        <a>Site em construção</a>
+    </div>
     </div>
 )
 
