@@ -1,10 +1,22 @@
 import Link from 'next/link';
+import styles from '../styles.module.css'
 import Image from 'next/image'
+import ViewSource from '../components/view-source'
 
 
-function Home() {
-    return <Image src="https://github.com/leonan0/fretindev/blob/master/fretin.jpg" alt="me" width="64" height="64" />
+const Code = (p) => <code className={styles.inlineCode} {...p} />
 
-}
 
-export default Home
+const Index = () => (
+    <div className={styles.all}>
+        <div className={styles.g}>
+            <div className={styles.logo}>
+                <div className={styles.rec}></div>
+                <div className={styles.in}>in</div>
+                <div className={styles.fret}>fret</div>
+            </div>
+        </div>
+    </div>
+)
+
+export default Index

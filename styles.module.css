@@ -1,0 +1,78 @@
+/* Android - 1 */
+.all{
+position: relative;
+width: 360px;
+height: 640px;
+
+background: #FF9F59;
+}
+
+/* Group 1 */
+.g{
+position: absolute;
+width: 93px;
+height: 107px;
+left: 136px;
+top: 267px;
+}
+
+
+/* logo */
+.logo{
+position: absolute;
+width: 93px;
+height: 107px;
+left: calc(50% - 93px/2 + 2.5px);
+top: calc(50% - 107px/2 + 0.5px);
+
+border-radius: 3px;
+}
+
+/* Rectangle 4 */
+.rec{
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 2.8%;
+
+border: 3px solid #FFFEFE;
+box-sizing: border-box;
+border-radius: 10px;
+}
+
+/* IN */
+.in{
+position: absolute;
+left: 12.73%;
+right: 10.67%;
+top: 29.63%;
+bottom: 8.33%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 72px;
+line-height: 111.92%;
+/* or 81px */
+
+color: #FFFEFE;
+}
+
+
+/* fret */
+.fret{
+position: absolute;
+left: 11.34%;
+right: 8.25%;
+top: 0%;
+bottom: 53.27%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 56px;
+
+color: #FFFEFE;
+}
