@@ -1,13 +1,19 @@
 import Link from 'next/link';
+import Image from 'next/image'
+
 
 function Home() {
-    return (<div>
-        <h1>Home</h1>
-
-        <Link href="/sobre">
-            <a>Acessar página Sobre</a>
-        </Link>
-    </div>)
-}
-
+    return (
+      <>
+        <h1>My Homepage</h1>
+        <Image
+          src="/fretin.jpg"
+          alt="Picture of the author"
+          width={500}
+          height={500}
+        />
+        <p>Welcome to my homepage!</p>
+      </>
+    )
+  }
 export default Home
