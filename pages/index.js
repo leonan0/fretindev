@@ -8,7 +8,7 @@ const Code = (p) => <code className={styles.inlineCode} {...p} />
 
 
 const Index = () => (
-    <div className={styles.inlineCode}>
+    <div className={styles.container.bgText}>
         Site em construção
     <div className={styles.all}>
         <div className={styles.g}>
