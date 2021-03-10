@@ -4,21 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/leonan0/fretindev.git"
   },
-  "author": "Leonan R Ferreira",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/leonan0/fretindev/issues"
   },
-  "homepage": "https://github.com/leonan0/fretindev#readme",
   "dependencies": {
-    "body-parser": "^1.19.0",
-    "config": "^3.3.6",
-    "express": "^4.17.1"
+    "next": "^10.0.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
   }
 }
