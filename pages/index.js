@@ -16,6 +16,7 @@ const Index = () => (
                 <div className={styles.fret}>fret</div>
             </div>
         </div>
+        <a>Site em construção</a>
     </div>
 )
 
